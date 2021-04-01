@@ -1,0 +1,556 @@
+body{
+    font-family: "Kalam", cursive;
+    background: #f1fffa;
+}
+
+.icon-top{
+    background: #2a9134;
+}
+
+.icon-top a i{
+    color: #f1fffa;
+    font-size: 25px;
+    transition: color 1s ease-in-out 2s;
+}
+
+.icon-top a i:hover{
+    color: #242424;
+}
+
+.Heading{
+    background-color: green;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.headingContainer{
+    text-decoration: none;
+}
+
+.headingComponent{
+    display: inline;
+    color: whitesmoke;
+} 
+
+ /* navbar */
+
+.navbar{
+    background: #242424!important;
+    padding: 10px 20px!important;
+    transition: padding 2s ease;
+
+}
+
+.navbar-background{
+    padding: 2px 20px !important;
+}
+
+.navbar-brand{
+    color: #2a9134;
+    border: 3px solid #2a9134;
+    font-size: 30px;
+    transition: all 2s ease;
+}
+
+.navbar-hover :hover{
+    background: #2a9134;
+    color: #242424;
+}
+
+.bar1,
+.bar2,
+.bar3{
+    width: 23px;
+    height: 3px;
+    margin: 5px;
+    background: #2a9134;
+    transition: all 0.5s ease;
+}
+
+.change .bar1{
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+.change .bar2{
+    opacity: 0;
+}
+.change .bar3{
+    transform: rotate(45deg) translate(-5px, -8px);
+}
+
+.nav-link{
+    color: #f1fffa;
+    font-size: 25px;
+    padding: 10px 20px!important;
+    border-radius: 5px;
+    transition: background 2s ease;
+}
+
+.nav-link:hover{
+    background: #2a9134;
+    color: #f1fffa;
+}
+
+.nav-active{
+    color: #f1fffa;
+    font-size: 25px;
+    padding: 10px 20px !important;
+    background: rgba(42, 145, 52, 0.6);
+}
+
+.search-btn{
+    background: #2a9134;
+    transition: all 1s ease;
+}
+
+.search-btn:hover{
+    color: #2a9134;
+    background: #191919;
+}
+
+.navbar-toggler{
+    border: 3px solid #2a9134;
+    padding: 3px;
+
+}
+
+
+/* ##########################slider################### */
+.item-1,
+.item-2,
+.item-2 {
+    min-height: 60vh;
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 95%);
+}
+
+/* color: rgb(51, 139, 43) */
+
+.no-padding{
+    padding: 0;
+}
+
+.item-1{
+    background: linear-gradient( to right, rgb(42, 145, 52, 0.9), rgb(42, 145, 52, 0.3)) ,url("images/banner-dedicated2.webp")center/cover fixed no-repeat;
+
+    /* background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat; */
+
+}
+
+.item-2{
+    background: linear-gradient( to right, rgb(42, 145, 52, 0.9), rgb(42, 145, 52, 0.3)) ,url("images/banner-continuousgrowth2.jpg")center/cover fixed no-repeat;
+
+    /* background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat; */
+
+}
+
+.item-3{
+    background: linear-gradient( to right, rgb(42, 145, 52, 0.9), rgb(42, 145, 52, 0.3)) ,url("images/banner-driven.jpg")center/cover fixed no-repeat;
+
+    /* background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat; */
+
+}
+
+.banner-btn{
+    color: #f1fffa;
+    border: 2px solid #f1fffa;
+    transition: all 1s ease;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.3);
+}
+
+.banner-btn:hover{
+    color: #2a9134;
+    background: #f1fffa;
+    transform: translateY(-7px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.7);
+}
+
+.paragraphContent {
+    font-size: 12pt;
+    padding: 0px 43px 0px 43px;
+}
+
+.blackBeltDescription {
+    position: relative;
+    z-index: 1;
+    margin: 3% 5%;
+    width: 90%;
+    border: 4px solid black;
+    padding: 5px 10px;
+}
+
+.blackBeltBackgroundFilter {
+    background-color: black;
+    z-index: -1;
+    opacity: 1;
+    position: absolute;
+    z-index: -2;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: .2;
+    width: 100%;
+    height: 100%;
+}
+
+.blackBeltBackground {
+    background-image: url("images/blackBeltNinjaTrans.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 150px 150px;
+    position: absolute;
+    z-index: -2;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: .15;
+    width: 100%;
+    height: 100%;
+}
+
+.allThumbnails {
+    padding: 20px;
+    text-align: center
+}
+
+.thumbnailsRow {
+    margin: 10px 0px 0px 0px;
+}
+
+.performThumbnails {
+    vertical-align: top;
+    min-height: 250px;
+    width: 250px;
+    border: 5px solid black;
+    display: inline-block;
+    margin: 15px;
+    box-shadow: 5px 5px;
+    border-radius: 5px;
+    padding: 15px;
+    letter-spacing: .5px;
+}
+
+.performThumbnails:hover {
+    margin-top: 1px;
+    box-shadow: 6px 6px;
+    background-image: linear-gradient(rgba(42, 145, 52, 1), rgba(42, 145, 52, .3));
+}
+
+#blackBeltNinja {
+    width: 100px;
+}
+
+.allStack{
+    margin: 70px 0px 0px 131px;
+}
+
+.stacks{
+    border: none;
+}
+.stackImage{
+    height: 100px;
+    width: 100px;
+    vertical-align: top;
+}
+.StackDetails{
+    font-size: 14px;
+    margin-left: 15px;
+    border: 5px ridge #3f3b4d;
+    display: inline-block;
+    width: 450px;
+}
+
+.stackImg {
+    position: absolute;
+    margin: -50px -50px -50px 109px;
+    width: 100px;
+}
+
+.stackContainer {
+    border: 2px solid black;
+    padding: 5px;
+    display: inline-block;
+    height: 375px;
+    vertical-align: top;
+    margin: 50px 0px 10px 10px;
+    border-radius: 3px;
+    background-image: linear-gradient(rgba(74, 155, 91, 0.5), rgba(127, 196, 121, 0.3));
+}
+
+.stackFormatting {
+    width: 300px;
+    margin: 10px;
+    border: 2px solid grey;
+    border-radius: 3px;
+}
+
+.stackTitle {
+    margin: 55px 10px 10px 10px;
+    background-image: linear-gradient(#464159, #7BB775, #81EC87);
+    font-weight: bold;
+    font-size: 1.25em;
+    color: white;
+    letter-spacing: 2.5px;
+}
+
+.stackMenu {
+    height: 240px;
+    text-align: left;
+    font-size: 1.6em;
+    background-color: rgba(128, 128, 128, 0.35);
+}
+
+@media only screen and (max-width: 480px){
+    .allStack{
+        /* display: none; */
+        transform: translate(-75px, 0px);
+    }
+    .BootcampRecg-a{
+        font-size: .75em;
+    }
+}
+
+
+@media only screen and (min-width: 481px){
+    .BootcampRecg{
+        display: none;
+    }
+}
+
+
+/* %%%%%%%%%%%%%%%%%%%% Title %%%%%%%%%%%%%%%%%% */
+.title h1{
+    color: #242424;
+}
+
+.title h3{
+    color: #5a5a5a;
+}
+
+.title-underline{
+    height: 5px;
+    width: 250px;
+    background: #2a9134;
+    margin: -28px auto 0 auto;
+}
+
+.title a{
+    color: #2a9134;
+    font-size: 30px;
+    padding: 0 10px;
+    display: inline-block;
+    background: #f1fffa;
+}
+
+/* $$$$$$$$$$$$$$$ Skills $$$$$$$$$$$$$$$$ */
+
+.skills-icon{
+    background: #242424;
+    transition: all 1s ease;
+    clip-path: polygon(0 0,50% 0, 100% 100%, 0 100%);
+}
+
+.skills-icon:hover{
+    background: #2a9134;
+}
+
+.skills-icon span{
+    color: #909090;
+    font-size: 100px;
+    transition: all 1s ease-in-out;
+}
+
+.skills-icon:hover span{
+    color: #f1fffa;
+}
+
+@media only screen and (max-width: 480px){
+    .phpIcon{
+        transform: translate(-16px, 0px);
+    }
+    .phpIcon2{
+        transform: scale(.9);
+    }
+
+    .nodeIcon{
+        transform: translate(-16px, 0px);
+    }
+    .nodeIcon2{
+        transform: scale(.9);
+    }
+
+    .javascriptIcon{
+        transform: translate(-7px, 0px);
+    }
+
+    .cssIcon2{
+        transform: translate(-4px, 0px);
+    }
+}
+
+/* #################  Coding dojo section ############# */
+
+#codingdojo{
+    min-height: 40vh;
+    background: #909090;
+    clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
+}
+
+.content p {
+    text-align: center;
+}
+
+.codingdojo-content-link-A {
+    margin: 0px 0px 0px 546px;
+    color: #2a9134;
+}
+
+.codingdojo-content-link-B {
+    margin: 0px 0px 0px 475px;
+    color: #2a9134;
+}
+
+.emphasize {
+    font-size: x-large;
+}
+
+.codingDojoSectBanner {
+    width: 545px;
+    height: 250px;
+    margin: 25px 0px 52px 367px;
+}
+
+@media only screen and (max-width: 480px){
+    .codingDojoSectBanner{
+        transform: scale(.5);
+        
+    }
+    .codingDojoSectBannerTranslate{
+        transform: translate(-394px ,0px);
+    }
+    .paragraphContent{
+        font-size: 9pt;
+        transform: scaleX(.9);
+    }
+    .CodingDojoSectSubTitle{
+        margin: 43px 0px 25px 0px;
+    }
+    .codingdojo-content-link-A{
+        margin: 0px 0px 0px 133px;
+    }
+    .codingdojo-content-link-B{
+        margin: 0px 0px 0px 70px;
+    }
+    .blackBeltDescriptionHorizontalSlider{
+        /* margin: 34px 0px 0px 25px; */
+        transform: scaleX(.8);
+    }
+}
+
+
+
+
+/* ############ video-filler ############ */
+
+#modal-filler{
+    min-height: 50vh;
+    background: linear-gradient(rgba(42, 145, 52, 0.9), rgba(42, 145, 52, 0.3)),url(images/banner-dedicated2.webp)center/cover fixed no-repeat;
+    clip-path: polygon(0% 0%, 180% 10%, 100% 70%, 0% 88%)
+}
+
+#modal-filler a{
+    color: #242424;
+    font-size: 80px;
+    animation: myAnimation 5s ease infinite;
+}
+
+#codingdojo{
+    clip-path: polygon(0 0, 277% 10%, 100% 100%, 0 98%);
+}
+
+/* #projects{
+    /* clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%); */
+/* }  */
+
+@keyframes myAnimation {
+
+    50%{
+        transform: scale(1.5);
+        color: #f1fffa;
+    }
+}
+
+/* #################### Projects ####################### */
+
+#projects button{
+    background: #2a9134;
+    color: #f1fffa;
+    transition: all 1s ease-in-out;
+}
+
+#projects button:hover{
+    background: grey;
+}
+
+.img-container{
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(rgba(181,181,14,0.9),rgba(181,181,14,0.9));
+}
+
+.img-container img{
+    opacity: 1;
+    transition: all 2s ease-in-out;
+}
+
+.img-container:hover .project-image{
+    opacity: 0.3;
+    transform: scale(1.3);
+}
+
+.search-link{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 4rem;
+    color: #2a9134;
+    transition: margin 2s ease-in-out, color 0.5s ease-in-out, opacity 0.75s ease-in-out;
+    margin-top: -50%;
+    opacity: 0;
+}
+
+.img-container:hover .search-link{
+    margin-top: 0;
+    opacity: 1;
+}
+
+.search-link:hover {
+    color: grey;
+}
+
+.marginbottom {
+    margin: 0px 0px 106px 0px;
+}
+
+@media only screen and (max-width: 480px){
+    .projectNav {
+        /* display: none; */
+        transform: scale(.5);
+    }
+    .projectNav2 {
+        transform: translate(-205px,10px);
+    }
+}
+
+
+
